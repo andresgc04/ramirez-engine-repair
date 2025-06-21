@@ -1,0 +1,51 @@
+.content {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  width: auto;
+  height: 874px;
+  padding: 20px 160px;
+}
+
+.content-fluid {
+  display: flex;
+  flex-flow: column wrap;
+  width: 960px;
+  height: 834px;
+}
+
+.main-content {
+  width: 960px;
+  height: 105px;
+  margin-bottom: 32.3px;
+}
+
+.section-our-services {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: start;
+  align-items: start;
+}
+
+@media (max-width: 480px) {
+  .content {
+    width: auto;
+    height: auto;
+    padding: 0px 0px;
+  }
+
+  .content-fluid {
+    width: auto;
+    height: auto;
+  }
+
+  .main-content {
+    width: auto;
+  }
+
+  .main-content-title {
+    text-align: center;
+  }
+}
