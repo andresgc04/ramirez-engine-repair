@@ -85,7 +85,7 @@ body {
   flex-flow: column wrap;
   justify-content: start;
   align-items: center;
-  background-image: url("img/car.png");
+  background-image: url("../img/car.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -254,15 +254,15 @@ body {
 }
 
 .customer-1-img {
-  background-image: url("img/customer-1.png");
+  background-image: url("../img/customer-1.png");
 }
 
 .customer-2-img {
-  background-image: url("img/customer-2.png");
+  background-image: url("../img/customer-2.png");
 }
 
 .customer-3-img {
-  background-image: url("img/customer-3.png");
+  background-image: url("../img/customer-3.png");
 }
 
 .customer-testimonials-card-body {
