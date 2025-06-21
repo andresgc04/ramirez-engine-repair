@@ -388,6 +388,13 @@ body {
 }
 
 .copyright {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.copyright-title {
   margin: 0;
   font-family: "Lexend", "Inter";
   font-size: 1rem;
@@ -396,7 +403,27 @@ body {
   color: #8a6161;
 }
 
+.navbar-links:hover {
+  color: #eb1212;
+}
+
+.get-in-touch-button:hover {
+  background-color: #8a6161;
+}
+
+.footer-navigation-links:hover {
+  color: #eb1212;
+}
+
 @media (max-width: 480px) {
+  .navbar {
+    gap: 10px;
+  }
+
+  .navbar-navigation {
+    gap: 15px;
+  }
+
   .logo {
     width: 40px;
     height: 40px;
@@ -418,9 +445,45 @@ body {
     width: auto;
   }
 
+  .main-content-title {
+    text-align: center;
+  }
+
+  .information-about-our-services {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .information-about-our-services-description {
+    font-size: 0.9rem;
+    text-align: center;
+  }
+
+  .line-break-services-description {
+    display: none;
+  }
+
+  .section-customer-testimonials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   .customer-testimonials {
     display: flex;
     flex-flow: column wrap;
+  }
+
+  .customer-testimonials-card-body {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .get-in-touch-title {
+    text-align: center;
   }
 
   .footer {
@@ -433,5 +496,9 @@ body {
   .footer-navigation {
     display: flex;
     flex-flow: column wrap;
+  }
+
+  .copyright-title {
+    font-size: 0.9rem;
   }
 }
