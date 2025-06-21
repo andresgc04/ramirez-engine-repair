@@ -417,6 +417,9 @@ body {
 
 @media (max-width: 480px) {
   .navbar {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-flow: column wrap;
     gap: 10px;
   }
 
@@ -468,6 +471,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 10px 8px 6px 8px;
   }
 
   .customer-testimonials {
@@ -499,6 +503,6 @@ body {
   }
 
   .copyright-title {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
   }
 }
