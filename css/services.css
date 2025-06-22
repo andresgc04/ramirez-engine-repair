@@ -29,6 +29,127 @@
   align-items: start;
 }
 
+.our-services-info {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: start;
+  align-items: start;
+  gap: 12px;
+  padding: 16px 16px;
+}
+
+.our-services-title {
+  margin: 0;
+  font-family: "Lexend", "Inter";
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 40px;
+  letter-spacing: 0px;
+  color: #171212;
+}
+
+.our-services-description {
+  margin: 0;
+  font-family: "Lexend", "Inter";
+  font-size: 0.875rem;
+  line-height: 21px;
+  letter-spacing: 0px;
+  color: #8a6161;
+}
+
+.section-services {
+  display: flex;
+  flex-flow: column wrap;
+  width: 928px;
+  height: 332px;
+}
+
+.services {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+  padding: 16px 16px;
+}
+
+.card {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: start;
+  align-items: center;
+  width: 11rem;
+  height: 20.75rem;
+  gap: 12px;
+}
+
+.card-header {
+  width: 11rem;
+  height: 11rem;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 12px;
+}
+
+.card-body {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.services-title {
+  margin: 0;
+  font-family: "Lexend", "Inter";
+  font-size: 1rem;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #171212;
+}
+
+.services-description {
+  margin: 0;
+  font-family: "Lexend", "Inter";
+  font-size: 0.8rem;
+  line-height: 21px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #8a6161;
+}
+
+.routine-maintenance-img {
+  background-image: url("../img/routine-maintenance.png");
+}
+
+.engine-diagnostics-img {
+  background-image: url("../img/engine-diagnostics.png");
+}
+
+.brake-services-img {
+  background-image: url("../img/brake-services.png");
+}
+
+.tire-services-img {
+  background-image: url("../img/tire-services.png");
+}
+
+.electrical-system-repairs-img {
+  background-image: url("../img/electrical-system-repairs.png");
+}
+
+.transmission-services-img {
+  background-image: url("../img/transmission-services.png");
+}
+
+.air-conditioning-services-img {
+  background-image: url("../img/air-conditioning-services.png");
+}
+
+.exhaust-system-repairs-img {
+  background-image: url("../img/exhaust-system-repairs.png");
+}
+
 @media (max-width: 480px) {
   .content {
     width: auto;
