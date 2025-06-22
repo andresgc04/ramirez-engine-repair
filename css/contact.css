@@ -5,7 +5,7 @@
   align-items: center;
   background-color: #fff;
   width: auto;
-  height: 927px;
+  height: auto;
   padding: 20px 160px;
 }
 
@@ -13,7 +13,7 @@
   display: flex;
   flex-flow: column wrap;
   width: 960px;
-  height: 1478px;
+  height: auto;
 }
 
 .main-content {
@@ -185,6 +185,155 @@
 
 .button-send-message:hover {
   background-color: #8a6161;
+}
+
+.section-our-location {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: start;
+  align-items: start;
+  height: 606px;
+  padding: 16px 16px 12px;
+  gap: 15px;
+}
+
+.our-location-title {
+  margin: 0;
+  font-family: "Lexend", "Inter";
+  font-size: 1.375rem;
+  font-weight: bold;
+  line-height: 28px;
+  letter-spacing: 0px;
+  color: #171212;
+}
+
+.section-map {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: start;
+  align-items: start;
+  padding: 12px 0px;
+}
+
+.map {
+  width: 928px;
+  height: 522px;
+  border-radius: 12px;
+}
+
+.section-contact-information {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: start;
+  align-items: start;
+  padding: 20px 16px 12px;
+}
+
+.contact-information-title {
+  margin: 0;
+  font-family: "Lexend", "Inter";
+  font-size: 1.375rem;
+  font-weight: bold;
+  line-height: 28px;
+  letter-spacing: 0px;
+  color: #171212;
+}
+
+.contact-information {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: start;
+  align-items: start;
+  padding: 16px 0px;
+  gap: 24px;
+}
+
+.address {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  width: 186px;
+  height: 81.5px;
+  padding: 20px 0px;
+  border: 1px solid #e5e8eb;
+}
+
+.address-title {
+  margin: 0;
+  font-family: "Lexend", "Inter";
+  font-size: 0.875rem;
+  line-height: 21px;
+  letter-spacing: 0px;
+  color: #8a6161;
+}
+
+.address-description {
+  margin: 0;
+  font-family: "Lexend", "Inter";
+  font-size: 0.875rem;
+  line-height: 21px;
+  letter-spacing: 0px;
+  color: #171212;
+  text-align: center;
+}
+
+.phone {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  width: 186px;
+  height: 81.5px;
+  padding: 20px 0px;
+  border: 1px solid #e5e8eb;
+}
+
+.phone-title {
+  margin: 0;
+  font-family: "Lexend", "Inter";
+  font-size: 0.875rem;
+  line-height: 21px;
+  letter-spacing: 0px;
+  color: #8a6161;
+}
+
+.phone-description {
+  margin: 0;
+  font-family: "Lexend", "Inter";
+  font-size: 0.875rem;
+  line-height: 21px;
+  letter-spacing: 0px;
+  color: #171212;
+}
+
+.email {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 81.5px;
+  padding: 20px 0px;
+  border: 1px solid #e5e8eb;
+}
+
+.email-title {
+  margin: 0;
+  font-family: "Lexend", "Inter";
+  font-size: 0.875rem;
+  line-height: 21px;
+  letter-spacing: 0px;
+  color: #8a6161;
+}
+
+.email-description {
+  margin: 0;
+  font-family: "Lexend", "Inter";
+  font-size: 0.875rem;
+  line-height: 21px;
+  letter-spacing: 0px;
+  color: #171212;
 }
 
 @media (max-width: 480px) {
