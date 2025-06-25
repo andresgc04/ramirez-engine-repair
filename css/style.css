@@ -149,3 +149,12 @@ body {
     font-size: 0.8rem;
   }
 }
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .navbar {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-flow: column wrap;
+    gap: 10px;
+  }
+}
