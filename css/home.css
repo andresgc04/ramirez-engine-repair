@@ -390,7 +390,85 @@
   }
 
   .banner {
-    width: 570px;
+    width: 550px;
+    height: 470px;
+    padding: 0px;
+  }
+
+  .main-content-title {
+    text-align: center;
+  }
+
+  .information-about-our-services {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .information-about-our-services-description {
+    font-size: 0.9rem;
+    text-align: center;
+  }
+
+  .line-break-services-description {
+    display: none;
+  }
+
+  .services {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .section-customer-testimonials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 8px 6px 8px;
+  }
+
+  .customer-testimonials {
+    display: flex;
+    flex-flow: column wrap;
+  }
+
+  .customer-testimonials-card-body {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .get-in-touch-title {
+    text-align: center;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .content {
+    width: auto;
+    height: auto;
+    padding: 0px 0px;
+  }
+
+  .content-fluid {
+    width: auto;
+    height: auto;
+  }
+
+  .main-content {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    margin: 0px;
+  }
+
+  .banner {
+    width: 550px;
     height: 470px;
     padding: 0px;
   }

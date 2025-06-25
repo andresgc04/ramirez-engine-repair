@@ -158,3 +158,12 @@ body {
     gap: 10px;
   }
 }
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .navbar {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-flow: column wrap;
+    gap: 10px;
+  }
+}
