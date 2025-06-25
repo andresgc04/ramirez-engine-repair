@@ -304,14 +304,25 @@
     height: auto;
     padding: 0px 0px;
   }
-  
+
   .content-fluid {
     width: auto;
     height: auto;
   }
 
   .main-content {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
     width: auto;
+    margin: 0px;
+  }
+
+  .banner {
+    width: 360px;
+    height: 480px;
+    padding: 0px;
   }
 
   .main-content-title {
