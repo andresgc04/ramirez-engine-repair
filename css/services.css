@@ -164,9 +164,46 @@
 
   .main-content {
     width: auto;
+    padding-bottom: 15px;
   }
 
   .main-content-title {
     text-align: center;
+  }
+
+  .section-services {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+  }
+
+  .section-our-services {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .our-services-info {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    padding: 16px 16px;
+  }
+
+  .our-services-description {
+    text-align: center;
+  }
+
+  .services {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 12px;
+    padding: 16px 16px;
   }
 }
