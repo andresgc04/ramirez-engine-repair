@@ -289,3 +289,40 @@
     padding: 16px 16px;
   }
 }
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .content {
+    width: auto;
+    height: auto;
+    padding: 0px 0px;
+  }
+
+  .content-fluid {
+    width: auto;
+    height: auto;
+  }
+
+  .main-content {
+    width: auto;
+  }
+
+  .main-content-title {
+    text-align: center;
+  }
+
+  .section-about-us {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about-us-info {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    padding: 16px 16px;
+  }
+}
