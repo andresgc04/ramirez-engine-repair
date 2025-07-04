@@ -482,12 +482,12 @@
   }
 
   .form-control {
-    width: 600px;
+    width: 400px;
     height: 56px;
   }
 
   .form-control-textarea {
-    width: 600px;
+    width: 400px;
   }
 
   .section-button-send-message {
@@ -532,6 +532,121 @@
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
+  .content {
+    width: auto;
+    height: auto;
+    padding: 0px 0px;
+  }
+
+  .content-fluid {
+    width: auto;
+    height: auto;
+  }
+
+  .main-content {
+    width: auto;
+    height: auto;
+  }
+
+  .main-content-title {
+    text-align: center;
+  }
+
+  .section-get-in-touch {
+    width: auto;
+    height: auto;
+  }
+
+  .get-in-touch-info {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    padding: 16px 16px;
+  }
+
+  .get-in-touch-description {
+    text-align: center;
+  }
+
+  .section-form-contact {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 16px 12px;
+  }
+
+  .form-contact {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 12px 0px;
+    box-sizing: border-box;
+  }
+
+  .form-control {
+    width: 600px;
+    height: 56px;
+  }
+
+  .form-control-textarea {
+    width: 600px;
+  }
+
+  .section-button-send-message {
+    display: flex;
+    flex-flow: column wrap;
+    justify-self: center;
+    align-self: center;
+    width: auto;
+    height: auto;
+    padding: 0;
+  }
+
+  .section-our-location {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    height: 580px;
+    padding: 8px 0px 6px;
+    gap: 15px;
+  }
+
+  .map {
+    width: 600px;
+    height: 500px;
+    border-radius: 12px;
+  }
+
+  .section-contact-information {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 16px 12px;
+  }
+
+  .contact-information-title {
+    justify-self: center;
+    align-self: center;
+  }
+
+  .contact-information {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 0px;
+    gap: 24px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
   .content {
     width: auto;
     height: auto;
